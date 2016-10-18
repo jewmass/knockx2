@@ -12,7 +12,7 @@
 
 
         <style>
-        .body{
+        body{
           background-color: rgba(184, 29, 54);
         }
 
@@ -26,9 +26,23 @@
           margin-top: 60px;
         }
 
-        ..navbar-default {
+        .navbar-default {
         background-color: #B81D36;
         border-color: #030033;
+        }
+
+        .navbar {
+        border-radius: 8px;
+         min-height: 40px;
+        }
+
+        .navbar-nav{
+        font-size: 18px;
+        color:  #fff;
+        }
+
+        .btn-info{
+          background-color: #B81D36;
         }
         </style>
 
@@ -46,6 +60,10 @@
               <li><a href="#">Register</a></li>
               <li><a href="#">History Log</a></li> 
             </ul>
+              <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
           </div>
         </nav>
         <div class="row centered-form">
@@ -58,7 +76,7 @@
                 <form role="form">
 
                   <div class="form-group">
-                    <input type="email" name="email" class="form-control input-sm" placeholder="Email Address">
+                    <input type="text" name="name" class="form-control input-sm" placeholder="ID">
                   </div>
 
                   <div class="form-group">
