@@ -12,26 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-
-Route::get('names/{id}', function($id)
-{
-    $names = array(
-      1 => "Juzer",
-      2 => "Thomas",
-      3 => "Lee"
-    );    
-    return array($id => $names[$id]);
-});
-
-Route::get('password/{id}', function($id)
-{
-    $password = array(
-      1 => "juzer",
-      2 => "jewmass",
-      3 => "chenchuen"
-    );    
-    return array($id => $password[$id]);
+    return view('login');
 });
