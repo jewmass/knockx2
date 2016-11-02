@@ -11,10 +11,25 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/history', function () {
+
     return view('historyLogs');
 });
 
+Route::get('/', function () {
+
+    return view('login');
+});
+
+Route::get('/register', function () {
+
+    return view('register');
+});
+
+Route::get('/list', function () {
+
+    return view('List');
+});
 
 Route::get('names/{id}', function($id)
 {
@@ -34,4 +49,7 @@ Route::get('password/{id}', function($id)
       3 => "chenchuen"
     );    
     return array($id => $password[$id]);
+
+    return view('login');
+
 });

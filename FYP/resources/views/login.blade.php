@@ -39,15 +39,20 @@
         .navbar-nav li a{
         font-size: 18px;
         color:  black;
+
+        .navbar-nav{
+        font-size: 18px;
+        color:  #fff;
         }
 
         .btn-info{
-          background-color: #B81D36;
+        background-color: #B81D36;
         }
 
         .navbar-default .navbar-text {
         color: #FFF;
         }
+
         </style>
 
     </head>
@@ -57,25 +62,39 @@
         <nav class="navbar navbar-default">
           <div class="container-fluid">
             <div class="navbar-header">
+
               <a class="navbar-brand" href="#">Knock Knock</a> 
+
             </div>
             <a href="#" class="pull-left"><img style="max-width:100px; margin-top: 100px src="/KnockLogo.png"></a>
+        
+
+            
             <ul class="nav navbar-nav">
               <li><a href="#">List</a></li>
               <li><a href="#">Register</a></li>
               <li><a href="#">History Log</a></li> 
             </ul>
+          
               <ul class="nav navbar-nav navbar-right">
+
               <li><a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a></li>
+
               <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
+            </ul>
+            </div>
           </div>
         </nav>
         <div class="row centered-form">
           <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
             <div class="panel panel-default">
               <div class="panel-heading">
+
                 <h3 class="panel-title" align="center">Security ID</h3>
+
+                <h3 class="panel-title">Login</h3>
+
               </div>
               <div class="panel-body">
                 <form role="form">
@@ -100,6 +119,11 @@
                 </form>
               </div>
             </div>
+
+            <div class="text-center">
+              <a href="/register" >Don't have an account? Register</a>
+            </div>
+
           </div>
         </div>
     </body>
